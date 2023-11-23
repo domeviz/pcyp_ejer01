@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_ejer01: phony || CMakeFiles/ejer01.dir
 
 build CMakeFiles/ejer01.dir/main.cpp.obj: CXX_COMPILER__ejer01_unscanned_Debug C$:/Users/USUARIO/Documents/Domenica/Semestres/Noveno$ Semestre/Programación$ Concurrente$ y$ Paralela/Ejercicios/ejer01/main.cpp || cmake_object_order_depends_target_ejer01
   DEP_FILE = CMakeFiles\ejer01.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -mavx -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ejer01.dir
   OBJECT_FILE_DIR = CMakeFiles\ejer01.dir
 
@@ -64,7 +64,7 @@ build CMakeFiles/ejer01.dir/main.cpp.obj: CXX_COMPILER__ejer01_unscanned_Debug C
 # Link the executable ejer01.exe
 
 build ejer01.exe: CXX_EXECUTABLE_LINKER__ejer01_Debug CMakeFiles/ejer01.dir/main.cpp.obj
-  FLAGS = -g
+  FLAGS = -mavx -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ejer01.dir
   POST_BUILD = cd .
